@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-01T16:04:07 IST" name="LoginSuite" finished-at="2022-05-01T16:04:55 IST" duration-ms="48170">
+    <groups>
+    </groups>
+    <test started-at="2022-05-01T16:04:07 IST" name="LoginTest_chrome" finished-at="2022-05-01T16:04:29 IST" duration-ms="22553">
+      <class name="com.Test.verifyLoginFb_tc001">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.Test.verifyLoginFb_tc001@1fa1cab1]" started-at="2022-05-01T16:04:07 IST" name="SetUp" finished-at="2022-05-01T16:04:13 IST" duration-ms="6603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyfblogin()[pri:0, instance:com.Test.verifyLoginFb_tc001@1fa1cab1]" started-at="2022-05-01T16:04:13 IST" name="verifyfblogin" finished-at="2022-05-01T16:04:14 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfblogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.verifyLoginFb_tc001@1fa1cab1]" started-at="2022-05-01T16:04:29 IST" name="tearDown" finished-at="2022-05-01T16:04:29 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.verifyLoginFb_tc001 -->
+    </test> <!-- LoginTest_chrome -->
+    <test started-at="2022-05-01T16:04:30 IST" name="LoginTest_edge" finished-at="2022-05-01T16:04:55 IST" duration-ms="25313">
+      <class name="com.Test.verifyLoginFb_tc001">
+        <test-method is-config="true" signature="ConfigSetup()[pri:0, instance:com.Test.verifyLoginFb_tc001@5ddf0d24]" started-at="2022-05-01T16:04:06 IST" name="ConfigSetup" finished-at="2022-05-01T16:04:07 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigSetup -->
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.Test.verifyLoginFb_tc001@5ddf0d24]" started-at="2022-05-01T16:04:30 IST" name="SetUp" finished-at="2022-05-01T16:04:36 IST" duration-ms="5810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyfblogin()[pri:0, instance:com.Test.verifyLoginFb_tc001@5ddf0d24]" started-at="2022-05-01T16:04:36 IST" name="verifyfblogin" finished-at="2022-05-01T16:04:36 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfblogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.verifyLoginFb_tc001@5ddf0d24]" started-at="2022-05-01T16:04:51 IST" name="tearDown" finished-at="2022-05-01T16:04:55 IST" duration-ms="4272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.verifyLoginFb_tc001 -->
+    </test> <!-- LoginTest_edge -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
